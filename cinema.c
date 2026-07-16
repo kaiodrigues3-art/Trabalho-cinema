@@ -49,7 +49,7 @@ typedef struct {
     int  coluna;
 } Reserva;
 
-/* ================== PESSOA 1 - PERSISTENCIA ================== */
+/* ================== PESSOA 1 - Leandro ================== */
 
 void carregarFilmes(Filme filmes[], int *totalFilmes);
 void salvarFilmes(Filme filmes[], int totalFilmes);
@@ -63,25 +63,25 @@ void salvarSessoes(Sessao sessoes[], int totalSessoes);
 void carregarReservas(Reserva reservas[], int *totalReservas);
 void salvarReservas(Reserva reservas[], int totalReservas);
 
-/* ================== PESSOA 2 - FILMES ================== */
+/* ================== PESSOA 2 - Bruno ================== */
 
 void cadastrarFilme(Filme filmes[], int *totalFilmes);
 void listarFilmes(Filme filmes[], int totalFilmes);
 Filme* buscarFilmePorId(Filme filmes[], int totalFilmes, int id);
 
-/* ================== PESSOA 3 - SALAS ================== */
+/* ================== PESSOA 3 - Kaio ================== */
 
 void criarSala(Sala salas[], int *totalSalas);
 void mostrarSala(Sessao *sessao);
 Sala* buscarSalaPorId(Sala salas[], int totalSalas, int id);
 
-/* ================== PESSOA 4 - SESSAO ================== */
+/* ================== PESSOA 4 - Bruna ================== */
 
 void criarSessao(Sessao sessoes[], int *totalSessoes, Filme filmes[], Sala salas[]);
 int  assentoDisponivel(Sessao *sessao, int linha, int coluna);
 Sessao* buscarSessaoPorId(Sessao sessoes[], int totalSessoes, int id);
 
-/* ================== PESSOA 5 - RESERVA + MENU ================== */
+/* ================== PESSOA 5 - João Pedro ================== */
 
 void reservarAssento(Sessao *sessao, Reserva reservas[], int *totalReservas,
                       int linha, int coluna, char nomeCliente[]);
