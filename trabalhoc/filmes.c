@@ -16,10 +16,10 @@ void cadastrarFilme(Filme filmes[], int *totalFilmes)
     printf("\n===== CADASTRAR FILME =====\n");
 
     printf("Titulo: ");
-    scanf("%s[^\n]", novo.titulo);
+    scanf(" %99[^\n]", novo.titulo);
 
     printf("Genero: ");
-    scanf("%s[^\n]", novo.genero);
+    scanf(" %49[^\n]", novo.genero);
 
     printf("Duracao (minutos): ");
     scanf("%d", &novo.duracao);
