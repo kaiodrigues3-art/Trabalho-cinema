@@ -1,0 +1,19 @@
+# Binários e executáveis
+cinema
+*.exe
+*.out
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Diretório de build (se vierem a usar)
+build/
+obj/
+
+# Arquivos de configuração do VSCode (opcional manter, mas geralmente não sobe)
+.vscode/
+
+# Arquivos temporários do sistema
+*~
+*.swp
